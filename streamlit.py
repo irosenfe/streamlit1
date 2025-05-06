@@ -4,8 +4,8 @@ logger = get_logger(__name__)
 
 import os
 
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 token = os.getenv('MY_HF_API_TOKEN')
 token = os.getenv('home')
 print(token)
